@@ -13,6 +13,8 @@ When cutting a new release of the parent `k8ssandra` chart update the `main / un
 
 ## main / unreleased
 
+* [ENHANCEMENT] #436 Upgrade Stargate to 1.0.11 and add a `preStop` lifecycle hook to improve behavior when reducing the number of Stargate replicas in the presence of live traffic
+
 ## v1.0.0 - 2021-02-26
 
 * [ENHANCEMENT] #444 Upgrade cass-operator to 1.6.0
